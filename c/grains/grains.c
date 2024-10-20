@@ -11,12 +11,6 @@ uint64_t square(uint8_t index) {
 }
 
 uint64_t total(void) {
-  uint64_t sum = 0;
-  int n;
-
-  for (n = 1; n <= 64; n++) {
-    sum = sum + square(n);
-  }
-
-  return sum;
+  return (uint64_t)pow(2, 64);
 }
+
